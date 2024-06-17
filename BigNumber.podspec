@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A oc library of BigNumber.
                        DESC
 
-  s.homepage         = 'https://github.com/15316488/BigNumber'
+  s.homepage         = 'https://github.com/fish-yan/BigNumber'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fish_yan' => '757094197@qq.com' }
