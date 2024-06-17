@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## BigNumber
+## ONTBigNumber
 
 Copyright (c) 2024 15316488 <xueyan@ont.io>
 

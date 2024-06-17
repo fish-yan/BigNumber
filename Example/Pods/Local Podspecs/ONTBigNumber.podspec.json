@@ -1,18 +1,18 @@
 {
-  "name": "BigNumber",
+  "name": "ONTBigNumber",
   "version": "0.1.0",
-  "summary": "A short description of BigNumber.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/15316488/BigNumber",
+  "summary": "A oc library of BigNumber.",
+  "description": "A oc library of BigNumber.",
+  "homepage": "https://github.com/fish-yan/BigNumber",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "15316488": "xueyan@ont.io"
+    "fish_yan": "757094197@qq.com"
   },
   "source": {
-    "git": "https://github.com/15316488/BigNumber.git",
+    "git": "https://github.com/fish-yan/BigNumber.git",
     "tag": "0.1.0"
   },
   "platforms": {

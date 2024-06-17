@@ -1,16 +1,16 @@
 PODS:
-  - BigNumber (0.1.0)
+  - ONTBigNumber (0.1.0)
 
 DEPENDENCIES:
-  - BigNumber (from `../`)
+  - ONTBigNumber (from `../`)
 
 EXTERNAL SOURCES:
-  BigNumber:
+  ONTBigNumber:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BigNumber: c73316c2e8d8976f568b7de93dc5429209308e33
+  ONTBigNumber: b3ea61b309a77ebe288cbfc633beb6f6ce668643
 
-PODFILE CHECKSUM: 11ce0b238f6d7260f01e5a7d36405a5f6195da31
+PODFILE CHECKSUM: 1aa2d190f9338bfdf3460d7ce7ecec82668f11dc
 
 COCOAPODS: 1.15.2
