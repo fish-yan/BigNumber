@@ -18,9 +18,9 @@
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": "BigNumber/Classes/**/*",
+  "source_files": "ONTBigNumber/Classes/**/*",
   "private_header_files": [
-    "BigNumber/Classes/libtommath-1.0/*.h",
-    "BigNumber/Classes/RegEx/*.h"
+    "ONTBigNumber/Classes/libtommath-1.0/*.h",
+    "ONTBigNumber/Classes/RegEx/*.h"
   ]
 }

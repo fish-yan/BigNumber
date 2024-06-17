@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ONTBigNumber: b3ea61b309a77ebe288cbfc633beb6f6ce668643
+  ONTBigNumber: 80e7524bec5c9779e2a390efd8a17e0edd0b9cfa
 
 PODFILE CHECKSUM: 1aa2d190f9338bfdf3460d7ce7ecec82668f11dc
 

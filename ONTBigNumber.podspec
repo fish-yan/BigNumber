@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  A oc library of BigNumber.
+  oc library of BigNumber.
                        DESC
 
   s.homepage         = 'https://github.com/fish-yan/BigNumber'
@@ -30,11 +30,11 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'BigNumber/Classes/**/*'
-  s.private_header_files = 'BigNumber/Classes/libtommath-1.0/*.h', 'BigNumber/Classes/RegEx/*.h'
+  s.source_files = 'ONTBigNumber/Classes/**/*'
+  s.private_header_files = 'ONTBigNumber/Classes/libtommath-1.0/*.h', 'ONTBigNumber/Classes/RegEx/*.h'
   
   # s.resource_bundles = {
-  #   'BigNumber' => ['BigNumber/Assets/*.png']
+  #   'BigNumber' => ['ONTBigNumber/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

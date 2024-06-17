@@ -1,0 +1,6 @@
+framework module ONTBigNumber {
+  umbrella header "ONTBigNumber-umbrella.h"
+
+  export *
+  module * { export * }
+}
