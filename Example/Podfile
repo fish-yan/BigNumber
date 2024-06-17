@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'BigNumber_Example' do
+  pod 'BigNumber', :path => '../'
+
+  target 'BigNumber_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
