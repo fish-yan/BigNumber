@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'BigNumber'
+  s.name             = 'ONTBigNumber'
   s.version          = '0.1.0'
   s.summary          = 'A oc library of BigNumber.'
 
