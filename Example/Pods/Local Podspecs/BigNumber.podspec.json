@@ -1,0 +1,26 @@
+{
+  "name": "BigNumber",
+  "version": "0.1.0",
+  "summary": "A short description of BigNumber.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/15316488/BigNumber",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "15316488": "xueyan@ont.io"
+  },
+  "source": {
+    "git": "https://github.com/15316488/BigNumber.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "BigNumber/Classes/**/*",
+  "private_header_files": [
+    "BigNumber/Classes/libtommath-1.0/*.h",
+    "BigNumber/Classes/RegEx/*.h"
+  ]
+}

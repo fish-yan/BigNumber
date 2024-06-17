@@ -1,0 +1,6 @@
+framework module Pods_BigNumber_Tests {
+  umbrella header "Pods-BigNumber_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

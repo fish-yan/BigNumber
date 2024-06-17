@@ -7,6 +7,7 @@
 //
 
 #import "ONTViewController.h"
+#import <BigNumber/BigNumber.h>
 
 @interface ONTViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    BigNumber *num = [BigNumber bigNumberWithHexString:@"0xff"];
+    NSLog(@"%@", num);
 }
 
 - (void)didReceiveMemoryWarning
