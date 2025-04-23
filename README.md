@@ -20,9 +20,10 @@ it, simply add the following line to your Podfile:
 pod 'BigNumber'
 ```
 
-## Author
-
-15316488, xueyan@ont.io
+user swift package manager
+```swift
+.package(url: "https://github.com/fish-yan/BigNumber.git", from: "0.1.2")
+```
 
 ## License
 
