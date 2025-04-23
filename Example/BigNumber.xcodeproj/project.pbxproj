@@ -65,7 +65,7 @@
 		BE6DDA68D48267A9676A04A3 /* Pods-BigNumber_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigNumber_Example.debug.xcconfig"; path = "Target Support Files/Pods-BigNumber_Example/Pods-BigNumber_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C13CDC93668DD1723B678A24 /* Pods-BigNumber_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigNumber_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BigNumber_Tests/Pods-BigNumber_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CAF1C38B9C4125A8483173A7 /* Pods_BigNumber_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigNumber_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6C0C805A85FA63A0210B1FF /* ONTBigNumber.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ONTBigNumber.podspec; path = ../ONTBigNumber.podspec; sourceTree = "<group>"; };
+		E6C0C805A85FA63A0210B1FF /* ONTBigNumber.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ONTBigNumber.podspec; path = ../ONTBigNumber.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FF8F9C2AFEA93AC5625FB140 /* Pods_BigNumber_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigNumber_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 

@@ -1,8 +1,8 @@
 {
   "name": "ONTBigNumber",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A oc library of BigNumber.",
-  "description": "A oc library of BigNumber.",
+  "description": "oc library of BigNumber.",
   "homepage": "https://github.com/fish-yan/BigNumber",
   "license": {
     "type": "MIT",
@@ -13,14 +13,11 @@
   },
   "source": {
     "git": "https://github.com/fish-yan/BigNumber.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": "ONTBigNumber/Classes/**/*",
-  "private_header_files": [
-    "ONTBigNumber/Classes/libtommath-1.0/*.h",
-    "ONTBigNumber/Classes/RegEx/*.h"
-  ]
+  "source_files": "Sources/BigNumber/**/*",
+  "private_header_files": "Sources/BigNumber/src/*.h"
 }

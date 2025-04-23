@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'ONTBigNumber/Classes/**/*'
-  s.private_header_files = 'ONTBigNumber/Classes/libtommath-1.0/*.h', 'ONTBigNumber/Classes/RegEx/*.h'
+  s.source_files = 'Sources/BigNumber/**/*'
+  s.private_header_files = 'Sources/BigNumber/src/*.h'
   
   # s.resource_bundles = {
   #   'BigNumber' => ['ONTBigNumber/Assets/*.png']

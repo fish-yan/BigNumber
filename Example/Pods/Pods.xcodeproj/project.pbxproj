@@ -7,145 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B7B79239418C41564E531140C6E09C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0E2BB87ECD13E5886CB3B5BEBA6DE26A /* tommath_private.h in Headers */ = {isa = PBXBuildFile; fileRef = B13C75258714C14A6182613FD943FBF2 /* tommath_private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		0F4C7AB361858DD07257D589E9D23792 /* BigNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E03DB39320E8A7D64731F1B7B011A0D8 /* BigNumber.m */; };
-		25D2ECB776F1CC12CB5E29C51C9EE598 /* BigNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 029B7B4BAF8F74FC523A7ABD2905B6FD /* BigNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F6C7094E42E830AED50C59CA5803B86 /* tommath_class.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AAFE18BCD922EBFFF5BD40B6470163B /* tommath_class.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		6363473FA5A60A4C6B9F0CBF68F5ACC3 /* Pods-BigNumber_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFA918ABC2E6F6824324F34EE67E0557 /* Pods-BigNumber_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		681276121C7B874BE2944D068C444F19 /* Pods-BigNumber_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0406DC2C600D14A639D5BBA57D6F4072 /* Pods-BigNumber_Tests-dummy.m */; };
-		6866C3EED0A4829F67F458F63C027724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		687295DD4F13EEC3BA6D266B97263EE2 /* ONTBigNumber-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F539B0807D8448B2EF9EF5A5B0B5766C /* ONTBigNumber-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FB8CFE8ABF0E52E779905B8A43F24C2 /* Pods-BigNumber_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B7F945DACC19C7CEF12C517A6A8403 /* Pods-BigNumber_Example-dummy.m */; };
-		73D8D76B2CB2B3ECD053172F16A5F493 /* ccMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A602408B6939E1451C51A623DDB076 /* ccMemory.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		748FF6ADAB3EE8BE507E78809B7B1483 /* tommath.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8CDA89E91003314CE6080463B831F3 /* tommath.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		752F3DD760643974ACDC5043164798EF /* RegEx.h in Headers */ = {isa = PBXBuildFile; fileRef = 626DB2B1E9DC79EBAB3D0BB167BC278F /* RegEx.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		7A513ABD7816CB9FC0432F7BE3B336C4 /* mpi.c in Sources */ = {isa = PBXBuildFile; fileRef = 53D570FF6DBEAE2E2A820E97090EF021 /* mpi.c */; };
-		8D0085E47D821D69FB66643E8A1DF414 /* RegEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2E8D62C5C5DB857F3C3CCF5D07511E /* RegEx.m */; };
-		A0DB013CB2E6701403A49C85EB104C13 /* Pods-BigNumber_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F7CF684C39717182B0B0DDA43FD11D /* Pods-BigNumber_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA18A74A2AA6E7BB1D1447B59C48AF0B /* ONTBigNumber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85827D6D3C9E31937A58052F93FCAB76 /* ONTBigNumber-dummy.m */; };
-		CD9C1B491B4ABDD54A032FD949C9B822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D2CB39F8403C720DD2E91F34F58BA80F /* tommath_superclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 458A987449C7669A8623F76EF8A4E46D /* tommath_superclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1553CDBDA2A6A7C0BB1EA28C67E5BD76 /* tommath.h in Headers */ = {isa = PBXBuildFile; fileRef = 981174BEEC0744CA323C643DF95F891B /* tommath.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3B011F39E0221DAC4AAE730EDCDEC6F7 /* tommath_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 925EA17FA84878AEB0FA5CAA31684C40 /* tommath_private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3F5DC4B88F818BC11ED66E0701C15915 /* Pods-BigNumber_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B7F945DACC19C7CEF12C517A6A8403 /* Pods-BigNumber_Example-dummy.m */; };
+		50918E0B8D9496010B55704B6C1CBA36 /* tommath_class.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CA2BD3CFB3CE917D17AC429DCD0B0E /* tommath_class.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		553B723BAD5B01B32CB0F51A20646814 /* tommath_superclass.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0241B4E50D31D3D06890DC67237276 /* tommath_superclass.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		67191BAEDFCB836E01C028B1163168A7 /* ONTBigNumber-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07536EDF52937AADFDDDC5EB24FAFD15 /* ONTBigNumber-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BD8C4376825064161EE8BFD588FAC61 /* ONTBigNumber-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4067496A232FE928FDE83E518A41B73 /* ONTBigNumber-dummy.m */; };
+		7F115A28A60CDAD4E61F2A0BBAF4565C /* BigNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 812DFFEBEC10D7399B99251298DB30AA /* BigNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854B3F987523AF1D76FFD0F9D0198116 /* mpi.c in Sources */ = {isa = PBXBuildFile; fileRef = 5973BECAF6BFED584F54730F62B05520 /* mpi.c */; };
+		8D5CCEE0CDDF240DE0971AA8119D6CBD /* RegEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 81551FA71C900B8230F4B2BFE51DED15 /* RegEx.m */; };
+		AC166E48C8EB3ED46B1D42EAAA6082FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		B8EB4B2F8E2300AC52B4DBA64AD3D84A /* Pods-BigNumber_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F7CF684C39717182B0B0DDA43FD11D /* Pods-BigNumber_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF840EF0D974D64C13152CB03277138C /* ccMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5228C1E6A30CE8B5521C1AC43397B75F /* ccMemory.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CDAEC7E6920F2DBC195A948C95EE28AB /* BigNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D01B06F6AD1DBE5D95E2588AFC34623 /* BigNumber.m */; };
+		CF46119AFAB2A79C32D1D3E94BDD1582 /* Pods-BigNumber_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0406DC2C600D14A639D5BBA57D6F4072 /* Pods-BigNumber_Tests-dummy.m */; };
+		D130685475740DD5735B0B0540018E25 /* RegEx.h in Headers */ = {isa = PBXBuildFile; fileRef = 31514FF5E3C2C36CA2E5D7723775C6E8 /* RegEx.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D4B7E573784F26B73B650A6EFAEA87EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		EA2DED99E79A0545431802D1A9DAD683 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		F56A0938176FFB98E2CFB78FA7918AFE /* Pods-BigNumber_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFA918ABC2E6F6824324F34EE67E0557 /* Pods-BigNumber_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		769C613AE25E5A52EB783C33E5454044 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C5986C2B9756C21DFA4BD54885B640DC;
-			remoteInfo = ONTBigNumber;
-		};
-		B6854ADF1990436B2D7151066BA67F1D /* PBXContainerItemProxy */ = {
+		C343C5F8DAA093FF36F3C25D33930184 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BE260950A6ED5B606450389C370F342F;
 			remoteInfo = "Pods-BigNumber_Example";
 		};
+		C7BC300B23898B6548C1906F26572045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5986C2B9756C21DFA4BD54885B640DC;
+			remoteInfo = ONTBigNumber;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01FBCE26624C658B167277CC08DFE6AD /* Pods-BigNumber_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BigNumber_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		029B7B4BAF8F74FC523A7ABD2905B6FD /* BigNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BigNumber.h; path = ONTBigNumber/Classes/BigNumber.h; sourceTree = "<group>"; };
 		0406DC2C600D14A639D5BBA57D6F4072 /* Pods-BigNumber_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BigNumber_Tests-dummy.m"; sourceTree = "<group>"; };
+		07536EDF52937AADFDDDC5EB24FAFD15 /* ONTBigNumber-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ONTBigNumber-umbrella.h"; sourceTree = "<group>"; };
 		0CF037014D6B9647F02C0DABAD8CF0F1 /* Pods-BigNumber_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigNumber_Example-frameworks.sh"; sourceTree = "<group>"; };
 		152653F20E80DEFCEE3CDC8176AAA954 /* Pods-BigNumber_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BigNumber_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		18A253B8A419C23E8EE819FC78B757DE /* ONTBigNumber.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ONTBigNumber.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2ED5747D56E9F159F3C1FB3EC213F707 /* ONTBigNumber */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ONTBigNumber; path = ONTBigNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F16B8E1783702D563C95A0CCF9C6BD9 /* Pods-BigNumber_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigNumber_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		31514FF5E3C2C36CA2E5D7723775C6E8 /* RegEx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RegEx.h; sourceTree = "<group>"; };
 		31EC19134EE1F4C758BD02E81A662440 /* Pods-BigNumber_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BigNumber_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B1B33F828F8722D9BCF22C2C0ADC2B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3F80DF04FD220A2B146560171894353D /* Pods-BigNumber_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BigNumber_Example"; path = Pods_BigNumber_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4511FB35B8267C33F9BFDB57EC6FCFAE /* Pods-BigNumber_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BigNumber_Tests.modulemap"; sourceTree = "<group>"; };
-		458A987449C7669A8623F76EF8A4E46D /* tommath_superclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tommath_superclass.h; sourceTree = "<group>"; };
 		465B3DA2320CCAEA1991BCE1B711A9DE /* Pods-BigNumber_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigNumber_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4D6BCA84A65A09F68EA3225EAAAEB471 /* ONTBigNumber-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ONTBigNumber-Info.plist"; sourceTree = "<group>"; };
+		5228C1E6A30CE8B5521C1AC43397B75F /* ccMemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ccMemory.h; sourceTree = "<group>"; };
 		52B7F945DACC19C7CEF12C517A6A8403 /* Pods-BigNumber_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BigNumber_Example-dummy.m"; sourceTree = "<group>"; };
 		52F7CF684C39717182B0B0DDA43FD11D /* Pods-BigNumber_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BigNumber_Tests-umbrella.h"; sourceTree = "<group>"; };
-		53A602408B6939E1451C51A623DDB076 /* ccMemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ccMemory.h; sourceTree = "<group>"; };
-		53D570FF6DBEAE2E2A820E97090EF021 /* mpi.c */ = {isa = PBXFileReference; includeInIndex = 1; path = mpi.c; sourceTree = "<group>"; };
-		584C6589797FB3046798288BD601F632 /* ONTBigNumber-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ONTBigNumber-prefix.pch"; sourceTree = "<group>"; };
-		5C8CDA89E91003314CE6080463B831F3 /* tommath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tommath.h; sourceTree = "<group>"; };
-		626DB2B1E9DC79EBAB3D0BB167BC278F /* RegEx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RegEx.h; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7BB0E3F0C8A459B28A322815E22BF415 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		85827D6D3C9E31937A58052F93FCAB76 /* ONTBigNumber-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ONTBigNumber-dummy.m"; sourceTree = "<group>"; };
-		880451A7EF494BCF0392C558C7433BC5 /* ONTBigNumber.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ONTBigNumber.modulemap; sourceTree = "<group>"; };
-		8AAFE18BCD922EBFFF5BD40B6470163B /* tommath_class.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tommath_class.h; sourceTree = "<group>"; };
+		5973BECAF6BFED584F54730F62B05520 /* mpi.c */ = {isa = PBXFileReference; includeInIndex = 1; path = mpi.c; sourceTree = "<group>"; };
+		6480DE6A49A935F39F1487D54B0639AB /* ONTBigNumber.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ONTBigNumber.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		64E8F76C74BDECE84A118E5A675FF7A0 /* ONTBigNumber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ONTBigNumber.debug.xcconfig; sourceTree = "<group>"; };
+		75F2B22C4EA42570543F4FBFFE04FDC0 /* ONTBigNumber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ONTBigNumber.release.xcconfig; sourceTree = "<group>"; };
+		812DFFEBEC10D7399B99251298DB30AA /* BigNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BigNumber.h; sourceTree = "<group>"; };
+		81551FA71C900B8230F4B2BFE51DED15 /* RegEx.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RegEx.m; sourceTree = "<group>"; };
+		85A7D7DF9619A15D4D52444F212F9CE8 /* ONTBigNumber.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ONTBigNumber.modulemap; sourceTree = "<group>"; };
 		8B29957BF871FE89F0BF3E3B96228211 /* Pods-BigNumber_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BigNumber_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9C2E8D62C5C5DB857F3C3CCF5D07511E /* RegEx.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RegEx.m; sourceTree = "<group>"; };
+		925EA17FA84878AEB0FA5CAA31684C40 /* tommath_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tommath_private.h; sourceTree = "<group>"; };
+		981174BEEC0744CA323C643DF95F891B /* tommath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tommath.h; sourceTree = "<group>"; };
+		9D01B06F6AD1DBE5D95E2588AFC34623 /* BigNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BigNumber.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A024AA34C427EA52F0CECCD8262B5BC4 /* ONTBigNumber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ONTBigNumber.debug.xcconfig; sourceTree = "<group>"; };
+		AD0241B4E50D31D3D06890DC67237276 /* tommath_superclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tommath_superclass.h; sourceTree = "<group>"; };
 		AFA918ABC2E6F6824324F34EE67E0557 /* Pods-BigNumber_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BigNumber_Example-umbrella.h"; sourceTree = "<group>"; };
-		B05D1593AB83C27A8C65DF6F27DF7CEB /* ONTBigNumber-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ONTBigNumber-Info.plist"; sourceTree = "<group>"; };
-		B13C75258714C14A6182613FD943FBF2 /* tommath_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tommath_private.h; sourceTree = "<group>"; };
 		B6726DC800E6ADE1CFF260EDEB7EBBE5 /* Pods-BigNumber_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BigNumber_Tests-Info.plist"; sourceTree = "<group>"; };
 		BA5E262DB1ACD00CFC5C1E0BA2B11ECB /* Pods-BigNumber_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BigNumber_Example-Info.plist"; sourceTree = "<group>"; };
+		C6CBA9862446EBAFA7884162809BF367 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C7B2167E5E5E7BC9AFD65A707C2CBE80 /* Pods-BigNumber_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigNumber_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC56D7E6CCE1EA7F2F74B6A639DF3838 /* Pods-BigNumber_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BigNumber_Example.modulemap"; sourceTree = "<group>"; };
-		D6F1F635061C54A2989EDF7100A91E0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E03DB39320E8A7D64731F1B7B011A0D8 /* BigNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BigNumber.m; path = ONTBigNumber/Classes/BigNumber.m; sourceTree = "<group>"; };
-		E8CF59583441807C2AB76099D24E542C /* ONTBigNumber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ONTBigNumber.release.xcconfig; sourceTree = "<group>"; };
+		D8CA2BD3CFB3CE917D17AC429DCD0B0E /* tommath_class.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tommath_class.h; sourceTree = "<group>"; };
+		E4067496A232FE928FDE83E518A41B73 /* ONTBigNumber-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ONTBigNumber-dummy.m"; sourceTree = "<group>"; };
+		E6F574A2E3EAB28CC0DE268D45EEAB92 /* ONTBigNumber-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ONTBigNumber-prefix.pch"; sourceTree = "<group>"; };
 		EFE907A81B5C586069FD09F1AF92F047 /* Pods-BigNumber_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigNumber_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F539B0807D8448B2EF9EF5A5B0B5766C /* ONTBigNumber-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ONTBigNumber-umbrella.h"; sourceTree = "<group>"; };
 		FE5D9F2D8696F74528934080A33267DE /* Pods-BigNumber_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BigNumber_Tests"; path = Pods_BigNumber_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		38DC862506BDAB0948E3347E20D450B1 /* Frameworks */ = {
+		0250AF1F94A560715E19EDA28D743B77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD9C1B491B4ABDD54A032FD949C9B822 /* Foundation.framework in Frameworks */,
+				AC166E48C8EB3ED46B1D42EAAA6082FD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F67E59BC234F092903C97C6C00A9FBB7 /* Frameworks */ = {
+		7F167B246F285E5796448AE897EA539C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B7B79239418C41564E531140C6E09C4 /* Foundation.framework in Frameworks */,
+				EA2DED99E79A0545431802D1A9DAD683 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF9D7ACFF8ACAF9B9ABD305C7DC6DF64 /* Frameworks */ = {
+		DB1292DC0D47127CED3275D10185E1A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6866C3EED0A4829F67F458F63C027724 /* Foundation.framework in Frameworks */,
+				D4B7E573784F26B73B650A6EFAEA87EC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B9B5D14513F7A2F1E845E9A62631CB5 /* ONTBigNumber */ = {
-			isa = PBXGroup;
-			children = (
-				029B7B4BAF8F74FC523A7ABD2905B6FD /* BigNumber.h */,
-				E03DB39320E8A7D64731F1B7B011A0D8 /* BigNumber.m */,
-				173E74BEF9D5C54A09B6E42E73088425 /* libtommath-1.0 */,
-				9474BC00B88F1BC2D3FD17F1F4B110CE /* Pod */,
-				6DDC5569B3F2189FC4276218EDF42BD4 /* RegEx */,
-				8F6CEFB278046C258396AAE8C6CDD690 /* Support Files */,
-			);
-			name = ONTBigNumber;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		173E74BEF9D5C54A09B6E42E73088425 /* libtommath-1.0 */ = {
-			isa = PBXGroup;
-			children = (
-				53A602408B6939E1451C51A623DDB076 /* ccMemory.h */,
-				53D570FF6DBEAE2E2A820E97090EF021 /* mpi.c */,
-				5C8CDA89E91003314CE6080463B831F3 /* tommath.h */,
-				8AAFE18BCD922EBFFF5BD40B6470163B /* tommath_class.h */,
-				B13C75258714C14A6182613FD943FBF2 /* tommath_private.h */,
-				458A987449C7669A8623F76EF8A4E46D /* tommath_superclass.h */,
-			);
-			name = "libtommath-1.0";
-			path = "ONTBigNumber/Classes/libtommath-1.0";
-			sourceTree = "<group>";
-		};
 		47CD793DCB23EC9B842A1C34629F7F97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,22 +128,35 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		6D36B389792C296C3341DE49C956E127 /* ONTBigNumber */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				7FF89149D729D537A050D78D5B8AAC10 /* include */,
+				85212B5DA7B2F9CAA8B405F163E486EE /* Pod */,
+				EBD8BBC9E7CDBBA6E0D6C75291638E38 /* src */,
+				B14D4ADE22A47539EA13BD719D16F803 /* Support Files */,
 			);
-			name = iOS;
+			name = ONTBigNumber;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		6DDC5569B3F2189FC4276218EDF42BD4 /* RegEx */ = {
+		7FF89149D729D537A050D78D5B8AAC10 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				626DB2B1E9DC79EBAB3D0BB167BC278F /* RegEx.h */,
-				9C2E8D62C5C5DB857F3C3CCF5D07511E /* RegEx.m */,
+				812DFFEBEC10D7399B99251298DB30AA /* BigNumber.h */,
 			);
-			name = RegEx;
-			path = ONTBigNumber/Classes/RegEx;
+			name = include;
+			path = Sources/BigNumber/include;
+			sourceTree = "<group>";
+		};
+		85212B5DA7B2F9CAA8B405F163E486EE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B33F828F8722D9BCF22C2C0ADC2B8 /* LICENSE */,
+				6480DE6A49A935F39F1487D54B0639AB /* ONTBigNumber.podspec */,
+				C6CBA9862446EBAFA7884162809BF367 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		87C122F483134ED41AF3E58864A0BE85 /* Pods-BigNumber_Tests */ = {
@@ -190,31 +175,6 @@
 			path = "Target Support Files/Pods-BigNumber_Tests";
 			sourceTree = "<group>";
 		};
-		8F6CEFB278046C258396AAE8C6CDD690 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				880451A7EF494BCF0392C558C7433BC5 /* ONTBigNumber.modulemap */,
-				85827D6D3C9E31937A58052F93FCAB76 /* ONTBigNumber-dummy.m */,
-				B05D1593AB83C27A8C65DF6F27DF7CEB /* ONTBigNumber-Info.plist */,
-				584C6589797FB3046798288BD601F632 /* ONTBigNumber-prefix.pch */,
-				F539B0807D8448B2EF9EF5A5B0B5766C /* ONTBigNumber-umbrella.h */,
-				A024AA34C427EA52F0CECCD8262B5BC4 /* ONTBigNumber.debug.xcconfig */,
-				E8CF59583441807C2AB76099D24E542C /* ONTBigNumber.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ONTBigNumber";
-			sourceTree = "<group>";
-		};
-		9474BC00B88F1BC2D3FD17F1F4B110CE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7BB0E3F0C8A459B28A322815E22BF415 /* LICENSE */,
-				18A253B8A419C23E8EE819FC78B757DE /* ONTBigNumber.podspec */,
-				D6F1F635061C54A2989EDF7100A91E0E /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		A101BBE8F49CC327D16C15C3500C60AF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,12 +184,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A84155E0174755747A417090AE77BE62 /* Development Pods */ = {
+		ABE1FA2A01F477FFB86C0B60FFBACA69 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0B9B5D14513F7A2F1E845E9A62631CB5 /* ONTBigNumber */,
+				6D36B389792C296C3341DE49C956E127 /* ONTBigNumber */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B14D4ADE22A47539EA13BD719D16F803 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85A7D7DF9619A15D4D52444F212F9CE8 /* ONTBigNumber.modulemap */,
+				E4067496A232FE928FDE83E518A41B73 /* ONTBigNumber-dummy.m */,
+				4D6BCA84A65A09F68EA3225EAAAEB471 /* ONTBigNumber-Info.plist */,
+				E6F574A2E3EAB28CC0DE268D45EEAB92 /* ONTBigNumber-prefix.pch */,
+				07536EDF52937AADFDDDC5EB24FAFD15 /* ONTBigNumber-umbrella.h */,
+				64E8F76C74BDECE84A118E5A675FF7A0 /* ONTBigNumber.debug.xcconfig */,
+				75F2B22C4EA42570543F4FBFFE04FDC0 /* ONTBigNumber.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ONTBigNumber";
 			sourceTree = "<group>";
 		};
 		B3049B6C44FEE76DEBD94673C6BDF548 /* Pods-BigNumber_Example */ = {
@@ -253,7 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A84155E0174755747A417090AE77BE62 /* Development Pods */,
+				ABE1FA2A01F477FFB86C0B60FFBACA69 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				47CD793DCB23EC9B842A1C34629F7F97 /* Products */,
 				A101BBE8F49CC327D16C15C3500C60AF /* Targets Support Files */,
@@ -263,42 +238,67 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EBD8BBC9E7CDBBA6E0D6C75291638E38 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9D01B06F6AD1DBE5D95E2588AFC34623 /* BigNumber.m */,
+				5228C1E6A30CE8B5521C1AC43397B75F /* ccMemory.h */,
+				5973BECAF6BFED584F54730F62B05520 /* mpi.c */,
+				31514FF5E3C2C36CA2E5D7723775C6E8 /* RegEx.h */,
+				81551FA71C900B8230F4B2BFE51DED15 /* RegEx.m */,
+				981174BEEC0744CA323C643DF95F891B /* tommath.h */,
+				D8CA2BD3CFB3CE917D17AC429DCD0B0E /* tommath_class.h */,
+				925EA17FA84878AEB0FA5CAA31684C40 /* tommath_private.h */,
+				AD0241B4E50D31D3D06890DC67237276 /* tommath_superclass.h */,
+			);
+			name = src;
+			path = Sources/BigNumber/src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		74D8CB07B7E58C3E2B13CE99857E7C1E /* Headers */ = {
+		14C9EFAEF815308FFD8131A7A9E3FB0C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25D2ECB776F1CC12CB5E29C51C9EE598 /* BigNumber.h in Headers */,
-				73D8D76B2CB2B3ECD053172F16A5F493 /* ccMemory.h in Headers */,
-				687295DD4F13EEC3BA6D266B97263EE2 /* ONTBigNumber-umbrella.h in Headers */,
-				752F3DD760643974ACDC5043164798EF /* RegEx.h in Headers */,
-				748FF6ADAB3EE8BE507E78809B7B1483 /* tommath.h in Headers */,
-				5F6C7094E42E830AED50C59CA5803B86 /* tommath_class.h in Headers */,
-				0E2BB87ECD13E5886CB3B5BEBA6DE26A /* tommath_private.h in Headers */,
-				D2CB39F8403C720DD2E91F34F58BA80F /* tommath_superclass.h in Headers */,
+				F56A0938176FFB98E2CFB78FA7918AFE /* Pods-BigNumber_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82512B040BC05B9144F9D64933C2911A /* Headers */ = {
+		B11D009F827FF5F2C4344C2A07D631DE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6363473FA5A60A4C6B9F0CBF68F5ACC3 /* Pods-BigNumber_Example-umbrella.h in Headers */,
+				B8EB4B2F8E2300AC52B4DBA64AD3D84A /* Pods-BigNumber_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A58C27D0B221F4CEF79B4C51D0CB7FF3 /* Headers */ = {
+		E09101C4F649EFCE6F1E261F0E4E0650 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0DB013CB2E6701403A49C85EB104C13 /* Pods-BigNumber_Tests-umbrella.h in Headers */,
+				7F115A28A60CDAD4E61F2A0BBAF4565C /* BigNumber.h in Headers */,
+				BF840EF0D974D64C13152CB03277138C /* ccMemory.h in Headers */,
+				67191BAEDFCB836E01C028B1163168A7 /* ONTBigNumber-umbrella.h in Headers */,
+				D130685475740DD5735B0B0540018E25 /* RegEx.h in Headers */,
+				1553CDBDA2A6A7C0BB1EA28C67E5BD76 /* tommath.h in Headers */,
+				50918E0B8D9496010B55704B6C1CBA36 /* tommath_class.h in Headers */,
+				3B011F39E0221DAC4AAE730EDCDEC6F7 /* tommath_private.h in Headers */,
+				553B723BAD5B01B32CB0F51A20646814 /* tommath_superclass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,17 +307,17 @@
 /* Begin PBXNativeTarget section */
 		6C23D64196078BE98424583944A0DC93 /* Pods-BigNumber_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EE0A35354E56735098BF24C76FB3A7A /* Build configuration list for PBXNativeTarget "Pods-BigNumber_Tests" */;
+			buildConfigurationList = CF4032CA3AB25BAC15EB20A42F9D8251 /* Build configuration list for PBXNativeTarget "Pods-BigNumber_Tests" */;
 			buildPhases = (
-				A58C27D0B221F4CEF79B4C51D0CB7FF3 /* Headers */,
-				B2AB8659672884AECB7E096F78CF5C8E /* Sources */,
-				F67E59BC234F092903C97C6C00A9FBB7 /* Frameworks */,
-				9A0322BD5F736A86B4A35C7D682AC0EA /* Resources */,
+				B11D009F827FF5F2C4344C2A07D631DE /* Headers */,
+				FBF82054DAFDF52551AB458FD02CB314 /* Sources */,
+				DB1292DC0D47127CED3275D10185E1A7 /* Frameworks */,
+				6FAA33CF9892BCAAC9A27201EB6CC61D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				19F57C1CF5AC87CBC02A5651ED08279C /* PBXTargetDependency */,
+				D0124DF72F147703522413B91794D8C0 /* PBXTargetDependency */,
 			);
 			name = "Pods-BigNumber_Tests";
 			productName = Pods_BigNumber_Tests;
@@ -326,17 +326,17 @@
 		};
 		BE260950A6ED5B606450389C370F342F /* Pods-BigNumber_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26A6220483435F294CD2F0772DCC9C05 /* Build configuration list for PBXNativeTarget "Pods-BigNumber_Example" */;
+			buildConfigurationList = 05A5928F0B8EA63DADA57EE458A163B9 /* Build configuration list for PBXNativeTarget "Pods-BigNumber_Example" */;
 			buildPhases = (
-				82512B040BC05B9144F9D64933C2911A /* Headers */,
-				4D656CE10B66D5DFC52344DF77C81D4D /* Sources */,
-				FF9D7ACFF8ACAF9B9ABD305C7DC6DF64 /* Frameworks */,
-				7C8B444386CD43ED1B4B96CF0D7B2D71 /* Resources */,
+				14C9EFAEF815308FFD8131A7A9E3FB0C /* Headers */,
+				C960DA3627C77F43F4432597E1F87AEF /* Sources */,
+				7F167B246F285E5796448AE897EA539C /* Frameworks */,
+				B7405E059506D7071D5CDE305E9823AF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7A98CA10EE889736C872C6BBF6DF5C3D /* PBXTargetDependency */,
+				E20671C35EE47C47B6985412CA8C8118 /* PBXTargetDependency */,
 			);
 			name = "Pods-BigNumber_Example";
 			productName = Pods_BigNumber_Example;
@@ -345,12 +345,12 @@
 		};
 		C5986C2B9756C21DFA4BD54885B640DC /* ONTBigNumber */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B67F097FFB6222DD69581440ABE1379 /* Build configuration list for PBXNativeTarget "ONTBigNumber" */;
+			buildConfigurationList = 3455679FEC42C68D62B49DC576F6C17A /* Build configuration list for PBXNativeTarget "ONTBigNumber" */;
 			buildPhases = (
-				74D8CB07B7E58C3E2B13CE99857E7C1E /* Headers */,
-				E8DAAC960C51AF3321E61FA2B4AD4A46 /* Sources */,
-				38DC862506BDAB0948E3347E20D450B1 /* Frameworks */,
-				BC3B5C6CEAE176879AF9361AE4AB1B74 /* Resources */,
+				E09101C4F649EFCE6F1E261F0E4E0650 /* Headers */,
+				B2B56B684BA00E24406AB9133F12B485 /* Sources */,
+				0250AF1F94A560715E19EDA28D743B77 /* Frameworks */,
+				C1D40381D65E9C37994EC809D89D8111 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -367,8 +367,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -379,6 +379,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 47CD793DCB23EC9B842A1C34629F7F97 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -391,21 +393,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7C8B444386CD43ED1B4B96CF0D7B2D71 /* Resources */ = {
+		6FAA33CF9892BCAAC9A27201EB6CC61D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A0322BD5F736A86B4A35C7D682AC0EA /* Resources */ = {
+		B7405E059506D7071D5CDE305E9823AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC3B5C6CEAE176879AF9361AE4AB1B74 /* Resources */ = {
+		C1D40381D65E9C37994EC809D89D8111 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -415,52 +417,88 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D656CE10B66D5DFC52344DF77C81D4D /* Sources */ = {
+		B2B56B684BA00E24406AB9133F12B485 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FB8CFE8ABF0E52E779905B8A43F24C2 /* Pods-BigNumber_Example-dummy.m in Sources */,
+				CDAEC7E6920F2DBC195A948C95EE28AB /* BigNumber.m in Sources */,
+				854B3F987523AF1D76FFD0F9D0198116 /* mpi.c in Sources */,
+				7BD8C4376825064161EE8BFD588FAC61 /* ONTBigNumber-dummy.m in Sources */,
+				8D5CCEE0CDDF240DE0971AA8119D6CBD /* RegEx.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2AB8659672884AECB7E096F78CF5C8E /* Sources */ = {
+		C960DA3627C77F43F4432597E1F87AEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				681276121C7B874BE2944D068C444F19 /* Pods-BigNumber_Tests-dummy.m in Sources */,
+				3F5DC4B88F818BC11ED66E0701C15915 /* Pods-BigNumber_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8DAAC960C51AF3321E61FA2B4AD4A46 /* Sources */ = {
+		FBF82054DAFDF52551AB458FD02CB314 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F4C7AB361858DD07257D589E9D23792 /* BigNumber.m in Sources */,
-				7A513ABD7816CB9FC0432F7BE3B336C4 /* mpi.c in Sources */,
-				AA18A74A2AA6E7BB1D1447B59C48AF0B /* ONTBigNumber-dummy.m in Sources */,
-				8D0085E47D821D69FB66643E8A1DF414 /* RegEx.m in Sources */,
+				CF46119AFAB2A79C32D1D3E94BDD1582 /* Pods-BigNumber_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		19F57C1CF5AC87CBC02A5651ED08279C /* PBXTargetDependency */ = {
+		D0124DF72F147703522413B91794D8C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-BigNumber_Example";
 			target = BE260950A6ED5B606450389C370F342F /* Pods-BigNumber_Example */;
-			targetProxy = B6854ADF1990436B2D7151066BA67F1D /* PBXContainerItemProxy */;
+			targetProxy = C343C5F8DAA093FF36F3C25D33930184 /* PBXContainerItemProxy */;
 		};
-		7A98CA10EE889736C872C6BBF6DF5C3D /* PBXTargetDependency */ = {
+		E20671C35EE47C47B6985412CA8C8118 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ONTBigNumber;
 			target = C5986C2B9756C21DFA4BD54885B640DC /* ONTBigNumber */;
-			targetProxy = 769C613AE25E5A52EB783C33E5454044 /* PBXContainerItemProxy */;
+			targetProxy = C7BC300B23898B6548C1906F26572045 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3978D4605159975193EC6AB2BB05675B /* Release */ = {
+		4A60B8955E07E7385F5E508B38F39EC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E8F76C74BDECE84A118E5A675FF7A0 /* ONTBigNumber.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ONTBigNumber/ONTBigNumber-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ONTBigNumber/ONTBigNumber-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ONTBigNumber/ONTBigNumber.modulemap";
+				PRODUCT_MODULE_NAME = ONTBigNumber;
+				PRODUCT_NAME = ONTBigNumber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BF7CD0E000CDEC0902A20F4FA4C2630 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFE907A81B5C586069FD09F1AF92F047 /* Pods-BigNumber_Tests.release.xcconfig */;
 			buildSettings = {
@@ -475,6 +513,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-BigNumber_Tests/Pods-BigNumber_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -495,72 +535,7 @@
 			};
 			name = Release;
 		};
-		4F2EAD8382F35D6014B2CE17CFCBEDCA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A024AA34C427EA52F0CECCD8262B5BC4 /* ONTBigNumber.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ONTBigNumber/ONTBigNumber-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ONTBigNumber/ONTBigNumber-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ONTBigNumber/ONTBigNumber.modulemap";
-				PRODUCT_MODULE_NAME = ONTBigNumber;
-				PRODUCT_NAME = ONTBigNumber;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6125A7B82A9385E72BB9847FDF8DC1BE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8CF59583441807C2AB76099D24E542C /* ONTBigNumber.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ONTBigNumber/ONTBigNumber-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ONTBigNumber/ONTBigNumber-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ONTBigNumber/ONTBigNumber.modulemap";
-				PRODUCT_MODULE_NAME = ONTBigNumber;
-				PRODUCT_NAME = ONTBigNumber;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		682E84320922CB1FAC078292F25600E2 /* Debug */ = {
+		59BBE8FAF5ACB1BC49853608BE757AF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2F16B8E1783702D563C95A0CCF9C6BD9 /* Pods-BigNumber_Example.debug.xcconfig */;
 			buildSettings = {
@@ -575,81 +550,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-BigNumber_Example/Pods-BigNumber_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BigNumber_Example/Pods-BigNumber_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7593D5291973C3FF62E8EB2ADF980D1C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 465B3DA2320CCAEA1991BCE1B711A9DE /* Pods-BigNumber_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BigNumber_Example/Pods-BigNumber_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BigNumber_Example/Pods-BigNumber_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		86FD79B0F0FD2AB70BB93AD2965C0703 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7B2167E5E5E7BC9AFD65A707C2CBE80 /* Pods-BigNumber_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BigNumber_Tests/Pods-BigNumber_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BigNumber_Tests/Pods-BigNumber_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -791,14 +699,133 @@
 			};
 			name = Release;
 		};
+		C4E4A1A8388AFBF85AF545617D83F992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B2167E5E5E7BC9AFD65A707C2CBE80 /* Pods-BigNumber_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-BigNumber_Tests/Pods-BigNumber_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigNumber_Tests/Pods-BigNumber_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C95F7E97EA13EB18F2DBDCD421C7447E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F2B22C4EA42570543F4FBFFE04FDC0 /* ONTBigNumber.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ONTBigNumber/ONTBigNumber-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ONTBigNumber/ONTBigNumber-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ONTBigNumber/ONTBigNumber.modulemap";
+				PRODUCT_MODULE_NAME = ONTBigNumber;
+				PRODUCT_NAME = ONTBigNumber;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7D9AD0538179AC22AE1F9B2388705CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 465B3DA2320CCAEA1991BCE1B711A9DE /* Pods-BigNumber_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-BigNumber_Example/Pods-BigNumber_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigNumber_Example/Pods-BigNumber_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26A6220483435F294CD2F0772DCC9C05 /* Build configuration list for PBXNativeTarget "Pods-BigNumber_Example" */ = {
+		05A5928F0B8EA63DADA57EE458A163B9 /* Build configuration list for PBXNativeTarget "Pods-BigNumber_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				682E84320922CB1FAC078292F25600E2 /* Debug */,
-				7593D5291973C3FF62E8EB2ADF980D1C /* Release */,
+				59BBE8FAF5ACB1BC49853608BE757AF9 /* Debug */,
+				D7D9AD0538179AC22AE1F9B2388705CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3455679FEC42C68D62B49DC576F6C17A /* Build configuration list for PBXNativeTarget "ONTBigNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A60B8955E07E7385F5E508B38F39EC4 /* Debug */,
+				C95F7E97EA13EB18F2DBDCD421C7447E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -812,20 +839,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B67F097FFB6222DD69581440ABE1379 /* Build configuration list for PBXNativeTarget "ONTBigNumber" */ = {
+		CF4032CA3AB25BAC15EB20A42F9D8251 /* Build configuration list for PBXNativeTarget "Pods-BigNumber_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F2EAD8382F35D6014B2CE17CFCBEDCA /* Debug */,
-				6125A7B82A9385E72BB9847FDF8DC1BE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6EE0A35354E56735098BF24C76FB3A7A /* Build configuration list for PBXNativeTarget "Pods-BigNumber_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				86FD79B0F0FD2AB70BB93AD2965C0703 /* Debug */,
-				3978D4605159975193EC6AB2BB05675B /* Release */,
+				C4E4A1A8388AFBF85AF545617D83F992 /* Debug */,
+				4BF7CD0E000CDEC0902A20F4FA4C2630 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
