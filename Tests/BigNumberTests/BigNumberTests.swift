@@ -1,7 +1,20 @@
-import Testing
+import XCTest
 @testable import BigNumber
 
-@Test func example() async throws {
-    let bigNumber = BigNumber(hexString: "0xff")
-    print(bigNumber)
+final class BigNumberTests: XCTestCase {
+    func testSwiftClientCanImportAndUseBigNumber() throws {
+        let value = try XCTUnwrap(BigNumber(hexString: "0xff"))
+        XCTAssertEqual(value.decimalString, "255")
+
+        let sum = value.add(BigNumber(integer: 1))
+        XCTAssertEqual(sum.hexString, "0x0100")
+    }
+
+    func testDataRoundTrip() throws {
+        let data = Data([0xff, 0x10])
+        let value = BigNumber(data: data)
+
+        XCTAssertEqual(value.hexString.lowercased(), "0xff10")
+        XCTAssertEqual(value.data, data)
+    }
 }

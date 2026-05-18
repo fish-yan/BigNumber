@@ -121,7 +121,7 @@ static RegEx *RegexHex = nil;
 
 + (instancetype)bigNumberWithData:(NSData *)data {
     if (data.length == 0) { return [BigNumber constantZero]; }
-    return [BigNumber bigNumberWithHexString:[self toHexString:data]];
+    return [BigNumber bigNumberWithHexString:[@"0x" stringByAppendingString:[self toHexString:data]]];
 }
 
 + (instancetype)bigNumberWithNumber:(NSNumber *)number {
@@ -332,6 +332,9 @@ static RegEx *RegexHex = nil;
 }
 
 + (NSData *)fromHexString:(NSString *)str {
+    if ([str hasPrefix:@"0x"] || [str hasPrefix:@"0X"]) {
+        str = [str substringFromIndex:2];
+    }
     if (!str || str.length % 2 != 0) {
         return nil;
     }

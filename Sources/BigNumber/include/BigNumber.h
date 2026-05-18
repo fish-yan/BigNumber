@@ -23,7 +23,11 @@
  *  DEALINGS IN THE SOFTWARE.
  */
 
+#pragma once
+
 #import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
 
 @interface BigNumber : NSObject
 
@@ -35,8 +39,8 @@
 + (BigNumber*)constantWeiPerEther;
 
 
-+ (instancetype)bigNumberWithDecimalString: (NSString*)decimalString;
-+ (instancetype)bigNumberWithHexString: (NSString*)hexString;
++ (nullable instancetype)bigNumberWithDecimalString: (NSString*)decimalString;
++ (nullable instancetype)bigNumberWithHexString: (NSString*)hexString;
 + (instancetype)bigNumberWithBase36String: (NSString*)base36String;
 
 + (instancetype)bigNumberWithData: (NSData*)data;
@@ -55,8 +59,8 @@
 - (BigNumber*)mod: (BigNumber*)other;
 
 - (NSUInteger)hash;
-- (NSComparisonResult)compare: (id)other;
-- (BOOL)isEqual:(id)object;
+- (NSComparisonResult)compare: (nullable id)other;
+- (BOOL)isEqual:(nullable id)object;
 
 @property (nonatomic, readonly) NSString *decimalString;
 @property (nonatomic, readonly) NSString *hexString;
@@ -68,10 +72,12 @@
 @property (nonatomic, readonly) BOOL isSafeIntegerValue;
 @property (nonatomic, readonly) NSInteger integerValue;
 
-@property (nonatomic, readonly) NSData *data;
+@property (nonatomic, readonly, nullable) NSData *data;
 
 
 @property (nonatomic, readonly) BOOL isZero;
 @property (nonatomic, readonly) BOOL isNegative;
 
 @end
+
+NS_ASSUME_NONNULL_END
